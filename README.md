@@ -10,15 +10,18 @@ git clone https://github.com/sky-stingray/joinmeet.git
 ```
 
 ## Usage
+Possible values for platform-name = ["zoom","googlemeet","jitsi"]
 
 ```python
 import joinmeet
 
-joinmeet.joinmeet("zoom",123456789,"pythonisallweneed") # opens zoom with creds you gave duh...
-joinmeet.joinmeet("google meet","abc-klmn-xyz","this is not consider but who cares")
-joinmeet.joinmeet("jitsi","samegoesforthis","but i am not bias to python ;>") # returns 'phenomenon'
-```
+#joinmeet.joinmeet(platform-name, id, password)
 
+joinmeet.joinmeet("zoom",123456789,"pythonisallweneed") # opens zoom with creds you gave duh...
+joinmeet.joinmeet("googlemeet","abc-klmn-xyz","this is not consider but who cares") # joins google meet blah blah
+joinmeet.joinmeet("jitsi","samegoesforthis","but i am not bias to python ;>") # really you need this?
+```
+btw more platforms comming soon...
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
